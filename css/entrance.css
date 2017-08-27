@@ -83,7 +83,148 @@ body {
                   font-size: 0.875rem; }
               body .container .body-container .body-left .center .player-info .item-list .item-1, body .container .body-container .body-left .center .player-info .item-list .item-3 {
                 flex: 1.5; }
-        body .container .body-container .body-left .right-border {
-          width: 0.375rem;
-          background-image: url(../images/border.png);
-          background-size: contain; }
+      body .container .body-container .body-right {
+        display: flex;
+        flex-direction: column;
+        width: 49.875rem; }
+        body .container .body-container .body-right-border-top {
+          width: 100%;
+          height: 2rem;
+          background-size: 100% 100%;
+          background-image: url(../images/section-border-top.jpg); }
+        body .container .body-container .body-right .reward {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          height: 8rem;
+          background-image: url(../images/section-bg.jpg);
+          background-size: 100% 100%; }
+          body .container .body-container .body-right .reward .title {
+            margin-left: 3rem;
+            color: #EB2C17;
+            font-weight: bold;
+            font-size: 1.5rem; }
+          body .container .body-container .body-right .reward .money {
+            display: inline-flex;
+            align-items: center;
+            margin-left: 1rem; }
+            body .container .body-container .body-right .reward .money img {
+              width: 2.5rem;
+              height: 2.5rem; }
+            body .container .body-container .body-right .reward .money span {
+              color: #FFCC00;
+              font-size: 2rem; }
+          body .container .body-container .body-right .reward .attr-progress {
+            display: flex;
+            align-items: center; }
+            body .container .body-container .body-right .reward .attr-progress img {
+              width: 6rem;
+              height: 6rem; }
+            body .container .body-container .body-right .reward .attr-progress .attr-item {
+              margin-right: 0.5rem;
+              width: 9rem; }
+              body .container .body-container .body-right .reward .attr-progress .attr-item .progress-key {
+                display: flex;
+                justify-content: center;
+                font-size: 1.5rem;
+                margin-bottom: 0.5rem; }
+        body .container .body-container .body-right .description {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+          height: 7rem;
+          background-image: url(../images/section-bg.jpg);
+          background-size: 100% 100%; }
+          body .container .body-container .body-right .description .message {
+            color: #EB2C17;
+            font-size: 2rem;
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            margin-left: 6rem;
+            margin-top: 1rem; }
+          body .container .body-container .body-right .description .slogan {
+            color: #00AEEF;
+            font-size: 3rem;
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+            margin-left: 24rem; }
+        body .container .body-container .body-right .info .double-border-top {
+          width: 100%;
+          height: 3rem;
+          background-size: 100%;
+          background-image: url(../images/double-section-top.jpg); }
+        body .container .body-container .body-right .info .double-section {
+          display: flex;
+          width: 100%;
+          height: 16rem;
+          background-image: url(../images/double-section-bg.jpg);
+          background-size: 100% 100%; }
+          body .container .body-container .body-right .info .double-section .left-section {
+            flex: 1; }
+            body .container .body-container .body-right .info .double-section .left-section .achievement {
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+              padding-left: 3rem; }
+              body .container .body-container .body-right .info .double-section .left-section .achievement .achieve-item {
+                display: flex;
+                align-items: center;
+                margin-top: 0.8rem; }
+                body .container .body-container .body-right .info .double-section .left-section .achievement .achieve-item .key-label {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  width: 5rem;
+                  height: 2rem;
+                  background-size: 100% 100%;
+                  color: chocolate;
+                  background-image: url(../images/achieve.png); }
+                body .container .body-container .body-right .info .double-section .left-section .achievement .achieve-item .value-label {
+                  margin-left: 1rem;
+                  color: cornflowerblue; }
+          body .container .body-container .body-right .info .double-section .right-section {
+            flex: 1; }
+            body .container .body-container .body-right .info .double-section .right-section .partner {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              padding-left: 3rem; }
+              body .container .body-container .body-right .info .double-section .right-section .partner .title {
+                display: flex;
+                color: dodgerblue;
+                font-size: 2rem; }
+              body .container .body-container .body-right .info .double-section .right-section .partner .partner-avatar .row {
+                display: flex;
+                margin-top: 0.6rem;
+                padding-left: 2rem; }
+                body .container .body-container .body-right .info .double-section .right-section .partner .partner-avatar .row .square {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  margin-right: 1rem; }
+                  body .container .body-container .body-right .info .double-section .right-section .partner .partner-avatar .row .square .avatar {
+                    width: 3.5rem;
+                    height: 3.5rem;
+                    border: 1px solid white; }
+                  body .container .body-container .body-right .info .double-section .right-section .partner .partner-avatar .row .square svg {
+                    width: 1.5rem;
+                    height: 1.5rem; }
+                  body .container .body-container .body-right .info .double-section .right-section .partner .partner-avatar .row .square .online {
+                    fill: #00AEEF; }
+                  body .container .body-container .body-right .info .double-section .right-section .partner .partner-avatar .row .square .offline {
+                    fill: #EB2C17; }
+              body .container .body-container .body-right .info .double-section .right-section .partner .online-offline {
+                padding-left: 1rem;
+                margin-top: 0.5rem; }
+                body .container .body-container .body-right .info .double-section .right-section .partner .online-offline .online {
+                  color: #00AEEF; }
+                body .container .body-container .body-right .info .double-section .right-section .partner .online-offline .offline {
+                  color: #EB2C17;
+                  margin-left: 2rem; }
+      body .container .body-container .right-border {
+        width: 0.375rem;
+        background-image: url(../images/border.png);
+        background-size: contain; }

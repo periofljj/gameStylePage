@@ -101,10 +101,188 @@ body
               .item-1, .item-3
                 flex: 1.5
 
+      .body-right
+        display: flex
+        flex-direction: column
+        width: 49.875rem
+
+        &-border-top
+          width: 100%
+          height: 2rem
+          background-size: 100% 100%
+          background-image: url(../images/section-border-top.jpg)
+
+        .reward
+          display: flex
+          align-items: center
+          width: 100%
+          height: 8rem
+          background-image: url(../images/section-bg.jpg)
+          background-size: 100% 100%
+
+          .title
+            margin-left: 3rem
+            color: #EB2C17
+            font-weight: bold
+            font-size: 1.5rem
+          
+          .money
+            display: inline-flex
+            align-items: center
+            margin-left: 1rem
+
+            img
+              width: 2.5rem
+              height: 2.5rem
+            
+            span
+              color: #FFCC00
+              font-size: 2rem
+
+          .attr-progress
+            display: flex
+            align-items: center
+
+            img
+              width: 6rem
+              height: 6rem
+
+            .attr-item
+              margin-right: 0.5rem
+              width: 9rem
+
+              .progress-key
+                display: flex
+                justify-content: center
+                font-size: 1.5rem
+                margin-bottom: 0.5rem
+
+
+        .description
+          display: flex
+          align-items: center
+          flex-direction: column
+          width: 100%
+          height: 7rem
+          background-image: url(../images/section-bg.jpg)
+          background-size: 100% 100%
+
+          .message
+            color: #EB2C17
+            font-size: 2rem
+            display: flex
+            justify-content: flex-start
+            width: 100%
+            margin-left: 6rem
+            margin-top: 1rem
+
+          .slogan
+            color: #00AEEF
+            font-size: 3rem
+            display: flex
+            justify-content: flex-start
+            width: 100%
+            margin-left: 24rem
+
+        .info
+          .double-border-top
+            width: 100%
+            height: 3rem
+            background-size: 100%
+            background-image: url(../images/double-section-top.jpg)
+
+          .double-section
+            display: flex
+            width: 100%
+            height: 16rem
+            background-image: url(../images/double-section-bg.jpg)
+            background-size: 100% 100%
+
+            .left-section
+              flex: 1
+
+              .achievement
+                width: 100%
+                display: flex
+                flex-direction: column
+                padding-left: 3rem
+
+                .achieve-item
+                  display: flex
+                  align-items: center
+                  margin-top: 0.8rem
+
+                  .key-label
+                    display: flex
+                    justify-content: center
+                    align-items: center
+                    width: 5rem
+                    height: 2rem
+                    background-size: 100% 100%
+                    color: chocolate
+                    background-image: url(../images/achieve.png)
+
+                  .value-label
+                    margin-left: 1rem
+                    color: cornflowerblue
+
+            .right-section
+              flex: 1
+
+              .partner
+                display: flex
+                flex-direction: column
+                width: 100%
+                padding-left: 3rem
+
+                .title
+                  display: flex
+                  color: dodgerblue
+                  font-size: 2rem
+
+                .partner-avatar
+                  .row
+                    display: flex
+                    align-center
+                    margin-top: 0.6rem
+                    padding-left: 2rem
+
+                    .square
+                      display: flex
+                      flex-direction: column
+                      align-items: center
+                      margin-right: 1rem
+
+                      .avatar
+                        width: 3.5rem
+                        height: 3.5rem
+                        border: 1px solid white
+
+                      svg 
+                        width: 1.5rem
+                        height: 1.5rem
+
+                      .online
+                        fill: #00AEEF
+
+                      .offline
+                        fill: #EB2C17
+
+                .online-offline
+                  padding-left: 1rem
+                  margin-top: 0.5rem
+
+                  .online
+                    color: #00AEEF
+
+                  .offline
+                    color: #EB2C17
+                    margin-left: 2rem
 
 
 
-        .right-border
-          width: 0.375rem
-          background-image: url(../images/border.png)
-          background-size: contain
+
+      .right-border
+        width: 0.375rem
+        background-image: url(../images/border.png)
+        background-size: contain
