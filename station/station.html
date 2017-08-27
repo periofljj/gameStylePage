@@ -2,6 +2,189 @@
   <head>
     <title>工位信息</title>
     <link rel="stylesheet" href="../css/station.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/progress.css">
+    <link rel="stylesheet" href="../css/button.css">
     <script src="station.js"></script>
   </head>
+  <body>
+    <div class="container">
+      <div class="header-top"></div>
+      <div class="header-content">
+        <div class="header-left">
+          <span>工位信息</span>
+        </div>
+        <div class="header-right">
+        </div>
+      </div>
+      <div class="body-container">
+          <div class="body-left">
+            <div class="left-border"></div>
+            <div class="center">
+              <div class="row">
+                <div class="avatar"></div>
+                <div class="id info-item">
+                  <span class="key">工号</span>
+                  <span class="value">S1703028</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="info-item">
+                  <span class="key">区域</span>
+                  <span class="value">MA</span>
+                </div>
+                <div class="info-item">
+                  <span class="key">线别</span>
+                  <span class="value">1#</span>
+                </div>
+                <div class="info-item">
+                  <span class="key">站点</span>
+                  <span class="value">FD</span>
+                </div>
+                <div class="info-item">
+                  <span class="key">经验</span>
+                  <span class="value">80</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="daily-target">
+                  <div>每 日</div>
+                  <div>任 务</div>
+                </div>
+                <div class="money">
+                  <img src="../images/dollar.png" alt="">
+                  <span>500</span>
+                </div>
+              </div>
+              <div class="row">
+                <div class="attr-progress">
+                  <img src="../images/sword.png" alt="">
+                  <div class="attr-container">
+                    <div class="attr-item">
+                        <span class="progress-key" style="color: #00AEEF">OUTPUT</span>
+                        <div class="progress" class="atrr-item">
+                          <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: 85%;">
+                            <div class="progress-value">1800</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="attr-item">
+                        <span class="progress-key" style="color: #39B54A">YIELD</span>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 75%;">
+                            <div class="progress-value">75%</div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="attr-item">
+                        <span class="progress-key" style="color: #EB2C17">DPPM</span>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 60%;">
+                            <div class="progress-value">5000</div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-border"></div>
+          </div>
+          <div class="body-right">
+            <div class="body-right-border-top"></div>
+            <div class="double-section">
+              <div class="left-section"></div>
+              <div class="right-section">
+                <div class="title">
+                  <a href="#" class="button is-gold is-vertical">
+                    <span class="shadow"></span>
+                    <span class="wrapper">
+                      <span class="bg"></span>
+                      <span class="b-title">实时监控 09:50</span>
+                      <span class="bg"></span>
+                    </span>
+                  </a>
+                </div>
+                <div class="content">
+                  <div class="progress-item">
+                    <span class="progress-key" style="color: #00AEEF">OUTPUT</span>
+                    <div class="progress" class="atrr-item">
+                      <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: 85%;">
+                        <div class="progress-value">1800</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="progress-item">
+                    <span class="progress-key" style="color: #39B54A">YIELD</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 75%;">
+                        <div class="progress-value">75%</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="progress-item">
+                    <span class="progress-key" style="color: #EB2C17">Defect</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 60%;">
+                        <div class="progress-value">5000</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="progress-item">
+                    <span class="progress-key" style="color: #39B54A">Target</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 75%;">
+                        <div class="progress-value">75%</div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="progress-item">
+                    <span class="progress-key" style="color: #EB2C17">Team</span>
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 60%;">
+                        <div class="progress-value">5000</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="body-right-border-top"></div>
+            <div class="double-section">
+              <div class="left-section">
+                <div class="title">
+                  <a href="#" class="button">
+                    <span class="shadow"></span>
+                    <span class="wrapper">
+                      <span class="bg"></span>
+                      <span class="b-title">战队状况</span>
+                      <span class="bg"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="right-section">
+                <div class="title">
+                  <a href="#" class="button is-silver is-horizontal">
+                    <span class="shadow"></span>
+                    <span class="wrapper">
+                      <span class="bg"></span>
+                      <span class="b-title">战队资讯</span>
+                      <span class="bg"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-border"></div>
+      </div>
+    </div>
+  </body>
 </html>

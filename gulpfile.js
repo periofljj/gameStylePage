@@ -10,9 +10,19 @@ gulp.task('sass', function() {
   .pipe(gulp.dest('./css/'));
 });
 
+gulp.task('scss', function() {
+  gulp.src(['./sass/*.scss'])
+  .pipe(sass())
+  .pipe(gulp.dest('./css/'));
+});
+
 gulp.task('watch', function() {
   gulp.watch('./sass/*.sass', ['sass']);
 });
 
+gulp.task('watch1', function() {
+  gulp.watch('./sass/*.scss', ['scss']);
+});
+
 // The default task (called when you run `gulp` from cli)
-gulp.task('default', ['watch', 'sass']);
+gulp.task('default', ['watch', 'sass', 'watch1', 'scss']);

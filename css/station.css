@@ -1,0 +1,159 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url(../images/black-bg.jpg); }
+  body .container {
+    display: flex;
+    flex-direction: column;
+    width: 80rem; }
+    body .container .header-top {
+      width: 100%;
+      height: 3.75rem;
+      background-image: url(../images/header-top.jpg);
+      background-size: 100% 3.75rem; }
+    body .container .header-content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 10rem;
+      background-image: url(../images/header.png);
+      background-size: 100% 100%; }
+      body .container .header-content .header-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 27.5rem;
+        height: 100%;
+        color: #999;
+        font-weight: bold;
+        font-size: 2.5rem; }
+        body .container .header-content .header-left span {
+          margin-left: 1.5rem; }
+    body .container .body-container {
+      display: flex; }
+      body .container .body-container .body-left {
+        display: flex;
+        height: 38rem;
+        width: 27.25rem; }
+        body .container .body-container .body-left .left-border {
+          background-image: url(../images/left-border.jpg);
+          width: 2.6em;
+          height: 100%;
+          background-size: 100% 100%; }
+        body .container .body-container .body-left .center {
+          display: flex;
+          flex-direction: column;
+          width: 24rem;
+          padding-left: 4rem; }
+          body .container .body-container .body-left .center .row {
+            display: flex;
+            align-items: center;
+            margin-top: 2rem; }
+            body .container .body-container .body-left .center .row .avatar {
+              width: 5rem;
+              height: 5rem;
+              border: 1px solid white;
+              background-size: 100% 100%;
+              background-image: url(../images/player-avatar.jpg); }
+            body .container .body-container .body-left .center .row .id {
+              margin-left: 2rem; }
+            body .container .body-container .body-left .center .row .info-item {
+              display: flex;
+              flex-direction: column;
+              margin-right: 1rem; }
+              body .container .body-container .body-left .center .row .info-item .key {
+                font-size: 1.8rem;
+                color: cornflowerblue;
+                text-align: center; }
+              body .container .body-container .body-left .center .row .info-item .value {
+                font-size: 1.5rem;
+                color: chocolate;
+                text-align: center; }
+            body .container .body-container .body-left .center .row .daily-target {
+              width: 5rem;
+              height: 5rem;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              font-size: 1.6rem;
+              color: brown;
+              border: 1px solid white; }
+            body .container .body-container .body-left .center .row .money {
+              display: inline-flex;
+              align-items: center;
+              margin-left: 2rem; }
+              body .container .body-container .body-left .center .row .money img {
+                width: 2.5rem;
+                height: 2.5rem; }
+              body .container .body-container .body-left .center .row .money span {
+                font-size: 2rem;
+                color: #FFCC00; }
+            body .container .body-container .body-left .center .row .attr-progress {
+              display: flex;
+              align-items: center;
+              margin-left: -1.5rem; }
+              body .container .body-container .body-left .center .row .attr-progress img {
+                width: 6.5rem;
+                height: 9rem; }
+              body .container .body-container .body-left .center .row .attr-progress .attr-container {
+                display: flex;
+                flex-direction: column; }
+                body .container .body-container .body-left .center .row .attr-progress .attr-container .attr-item {
+                  margin-right: 0.5rem;
+                  width: 14rem;
+                  display: flex;
+                  align-items: center; }
+                  body .container .body-container .body-left .center .row .attr-progress .attr-container .attr-item .progress-key {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 1rem;
+                    width: 3rem;
+                    margin-right: 0.5rem;
+                    margin-bottom: 1.5rem; }
+                  body .container .body-container .body-left .center .row .attr-progress .attr-container .attr-item .progress {
+                    width: 20rem; }
+      body .container .body-container .right-border {
+        width: 0.375rem;
+        background-image: url(../images/border.png);
+        background-size: contain; }
+      body .container .body-container .body-right {
+        display: flex;
+        flex-direction: column;
+        width: 47.8rem; }
+        body .container .body-container .body-right-border-top {
+          width: 100%;
+          height: 3rem;
+          background-size: 100%;
+          background-image: url(../images/double-section-top.jpg); }
+        body .container .body-container .body-right .double-section {
+          display: flex;
+          width: 100%;
+          height: 16rem;
+          background-image: url(../images/double-section-bg.jpg);
+          background-size: 100% 100%; }
+          body .container .body-container .body-right .double-section .left-section {
+            flex: 1;
+            height: 100%; }
+            body .container .body-container .body-right .double-section .left-section .title {
+              margin-bottom: 0.6rem; }
+          body .container .body-container .body-right .double-section .right-section {
+            flex: 1;
+            height: 100%;
+            padding-left: 3rem; }
+            body .container .body-container .body-right .double-section .right-section .title {
+              margin-bottom: 0.6rem; }
+            body .container .body-container .body-right .double-section .right-section .progress-item {
+              display: flex;
+              align-items: center;
+              width: 100%;
+              height: 2.5rem;
+              padding-left: 1rem; }
+              body .container .body-container .body-right .double-section .right-section .progress-item .progress-key {
+                width: 4rem;
+                margin-bottom: 1.6rem;
+                margin-right: 1rem; }
+              body .container .body-container .body-right .double-section .right-section .progress-item .progress {
+                width: 14rem; }

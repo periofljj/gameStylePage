@@ -1,0 +1,194 @@
+body
+  display: flex
+  justify-content: center
+  align-items: center
+  margin: 0
+  background-image: url(../images/black-bg.jpg)
+
+  .container
+    display: flex
+    flex-direction: column
+    width: 80rem
+
+    .header-top
+      width: 100%
+      height: 3.75rem
+      background-image: url(../images/header-top.jpg)
+      background-size: 100% 3.75rem
+
+    .header-content
+      display: flex
+      align-items: center
+      width: 100%
+      height: 10rem
+      background-image: url(../images/header.png)
+      background-size: 100% 100%
+
+      .header-left
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 27.5rem
+        height: 100%
+        color: #999
+        font-weight: bold
+        font-size: 2.5rem
+
+        span
+          margin-left: 1.5rem
+
+    .body-container
+      display: flex
+
+      .body-left
+        display: flex
+        height: 38rem
+        width: 27.25rem
+
+        .left-border
+          background-image: url(../images/left-border.jpg)
+          width: 2.6em
+          height: 100%
+          background-size: 100% 100%
+
+        .center
+          display: flex
+          flex-direction: column
+          width: 24rem
+          padding-left: 4rem
+
+          .row
+            display: flex
+            align-items: center
+            margin-top: 2rem
+
+            .avatar
+              width: 5rem
+              height: 5rem
+              border: 1px solid white
+              background-size: 100% 100%
+              background-image: url(../images/player-avatar.jpg)
+
+            .id
+              margin-left: 2rem
+
+            .info-item
+              display: flex
+              flex-direction: column
+              margin-right: 1rem
+
+              .key
+                font-size: 1.8rem
+                color: cornflowerblue
+                text-align: center
+
+              .value
+                font-size: 1.5rem
+                color: chocolate
+                text-align: center
+          
+            .daily-target
+              width: 5rem
+              height: 5rem
+              display: flex
+              flex-direction: column
+              align-items: center
+              justify-content: center
+              font-size: 1.6rem
+              color: brown
+              border: 1px solid white
+            
+            .money
+              display: inline-flex
+              align-items: center
+              margin-left: 2rem
+
+              img
+                width: 2.5rem
+                height: 2.5rem
+              
+              span
+                font-size: 2rem
+                color: #FFCC00
+
+            .attr-progress
+              display: flex
+              align-items: center
+              margin-left: -1.5rem
+
+              img
+                width: 6.5rem
+                height: 9rem
+
+              .attr-container
+                display: flex
+                flex-direction: column
+                .attr-item
+                  margin-right: 0.5rem
+                  width: 14rem
+                  display: flex
+                  align-items: center
+
+                  .progress-key
+                    display: flex
+                    justify-content: center
+                    font-size: 1rem
+                    width: 3rem
+                    margin-right: 0.5rem
+                    margin-bottom: 1.5rem
+
+                  .progress
+                    width: 20rem
+      
+      .right-border
+        width: 0.375rem
+        background-image: url(../images/border.png)
+        background-size: contain
+
+      .body-right
+        display: flex
+        flex-direction: column
+        width: 47.8rem
+
+        &-border-top
+          width: 100%
+          height: 3rem
+          background-size: 100%
+          background-image: url(../images/double-section-top.jpg)
+
+        .double-section
+          display: flex
+          width: 100%
+          height: 16rem
+          background-image: url(../images/double-section-bg.jpg)
+          background-size: 100% 100%
+
+          .left-section
+            flex: 1
+            height: 100%
+
+            .title
+              margin-bottom: 0.6rem
+
+          .right-section
+            flex: 1
+            height: 100%
+            padding-left: 3rem
+
+            .title
+              margin-bottom: 0.6rem
+
+            .progress-item
+              display: flex
+              align-items: center
+              width: 100%
+              height: 2.5rem
+              padding-left: 1rem
+
+              .progress-key
+                width: 4rem
+                margin-bottom: 1.6rem
+                margin-right: 1rem
+
+              .progress
+                width: 14rem
