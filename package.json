@@ -15,5 +15,13 @@
   "devDependencies": {
     "gulp": "^3.9.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/periofljj/gameStylePage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/periofljj/gameStylePage/issues"
+  },
+  "homepage": "https://github.com/periofljj/gameStylePage#readme",
   "description": ""
 }

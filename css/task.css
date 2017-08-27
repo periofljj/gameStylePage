@@ -13,6 +13,11 @@ body {
       height: 3.75rem;
       background-image: url(../images/header-top.jpg);
       background-size: 100% 3.75rem; }
+    body .container .footer {
+      width: 100%;
+      height: 3.75rem;
+      background-image: url(../images/footer.jpg);
+      background-size: 100% 3.75rem; }
     body .container .header-content {
       display: flex;
       align-items: center;
@@ -28,7 +33,7 @@ body {
         height: 100%;
         color: #999;
         font-weight: bold;
-        font-size: 2rem; }
+        font-size: 2.5rem; }
         body .container .header-content .header-left span {
           margin-left: 1.5rem; }
       body .container .header-content .header-right {
@@ -98,7 +103,8 @@ body {
                   font-size: 1rem; }
                 body .container .body-container .body-left .center .player-info .item-list .player-info-item .value {
                   color: #ccc;
-                  font-size: 0.875rem; }
+                  font-size: 1rem;
+                  font-weight: bold; }
               body .container .body-container .body-left .center .player-info .item-list .item-1, body .container .body-container .body-left .center .player-info .item-list .item-3 {
                 flex: 1.5; }
         body .container .body-container .body-left .right-border {
@@ -142,7 +148,7 @@ body {
                 margin-bottom: 0.4rem; }
                 body .container .body-container .body-right .double-section .left-section .player-attr .row .key {
                   font-size: 1rem;
-                  width: 3.5rem;
+                  width: 7.5rem;
                   height: 2rem;
                   padding: 0.2rem;
                   border-radius: 6px;
@@ -171,8 +177,8 @@ body {
               body .container .body-container .body-right .double-section .right-section .task-name span {
                 color: #EB2C17;
                 font-weight: bold;
-                font-size: 1.2rem;
-                margin-left: 1rem; }
+                font-size: 2rem;
+                margin-left: 1.75rem; }
             body .container .body-container .body-right .double-section .right-section .task-condition span {
               color: #39B54A;
               font-size: 0.75rem;
@@ -190,8 +196,8 @@ body {
                 justify-content: center; }
                 body .container .body-container .body-right .double-section .right-section .task-content .monster-avatar div {
                   width: 100%;
-                  height: 10rem;
-                  margin-top: 2rem;
+                  height: 9rem;
+                  margin-top: 1rem;
                   background-size: 100% 100%;
                   background-image: url(../images/monster-avatar.jpg); }
               body .container .body-container .body-right .double-section .right-section .task-content .task-bonus {
@@ -214,4 +220,5 @@ body {
               justify-content: flex-end;
               padding-right: 2rem; }
               body .container .body-container .body-right .double-section .right-section .operation button {
-                margin-left: 0.6rem; }
+                margin-left: 0.6rem;
+                width: 10rem; }
