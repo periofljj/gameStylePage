@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <title>任务发布</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/task.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/progress.css">
+    <!-- 引入 ECharts 文件 -->
+    <script src="../lib/echarts.js"></script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header-top"></div>
+      <div class="header-content">
+        <div class="header-left">
+          <span>ID: S1703028</span>
+        </div>
+        <div class="header-right">
+          <div class="header-item item-one">FAB - 3B</div>
+          <div class="header-item item-two">班别 - D</div>
+          <div class="header-item item-three">星站点 - FD</div>
+          <div class="header-item item-four">好友 - 15</div>
+          <div class="header-item item-five">通知 10+</div>
+        </div>
+      </div>
+      <div class="body-container">
+        <div class="body-left">
+          <div class="left-border"></div>
+          <div class="center">
+            <div class="large-avatar"></div>
+            <div class="player-info">
+              <div class="section-top"></div>
+              <div class="item-list">
+                <div class="player-info-item item-1">
+                  <div class="key">Level</div>
+                  <div class="value">Lv.30</div>
+                </div>
+                <div class="player-info-item">
+                  <div class="key">积分</div>
+                  <div class="value">150</div>
+                </div>
+                <div class="player-info-item item-3">
+                  <div class="key">好友</div>
+                  <div class="value">15</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-border"></div>
+        </div>
+        <div class="body-right">
+          <div class="body-right-border-top"></div>
+          <div class="double-section">
+            <div class="left-section">
+              <div id="radar-graph" style="width: 310px;height:280px;">
+              </div>
+              <div class="player-attr-top"></div>
+              <div class="player-attr">
+                <div class="row">
+                  <span class="key">定位</span>
+                  <span class="value">MA</span>
+                </div>
+                <div class="row">
+                  <span class="key">特长</span>
+                  <span class="value">FD.ASSY</span>
+                </div>
+                <div class="row">
+                  <span class="key">熟练度</span>
+                  <span class="value">
+                    <svg id="icon-star-full" viewBox="0 0 64 64" width="16px" height="16px" fill="#EB2C17">
+                      <path d="M64 24.816l-22.111-3.213-9.889-20.036-9.889 20.036-22.111 3.213 16 15.596-3.777 22.022 19.777-10.397 19.777 10.397-3.777-22.022 16-15.596z"></path>
+                    </svg>
+                    <svg id="icon-star-full" viewBox="0 0 64 64" width="16px" height="16px" fill="#EB2C17">
+                      <path d="M64 24.816l-22.111-3.213-9.889-20.036-9.889 20.036-22.111 3.213 16 15.596-3.777 22.022 19.777-10.397 19.777 10.397-3.777-22.022 16-15.596z"></path>
+                    </svg>
+                    <svg id="icon-star-full" viewBox="0 0 64 64" width="16px" height="16px" fill="#EB2C17">
+                      <path d="M64 24.816l-22.111-3.213-9.889-20.036-9.889 20.036-22.111 3.213 16 15.596-3.777 22.022 19.777-10.397 19.777 10.397-3.777-22.022 16-15.596z"></path>
+                    </svg>
+                    <svg id="icon-star-full" viewBox="0 0 64 64" width="16px" height="16px" fill="#EB2C17">
+                      <path d="M64 24.816l-22.111-3.213-9.889-20.036-9.889 20.036-22.111 3.213 16 15.596-3.777 22.022 19.777-10.397 19.777 10.397-3.777-22.022 16-15.596z"></path>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right-section">
+              <div class="task-name">
+                <img src="../images/broadcast.jpg" alt="">
+                <span>AUO Daily Challenge</span>
+              </div>
+              <div class="task-condition">
+                <span>Model: BR5</span>
+                <span>组队挑战: 5人</span>
+                <span>挑战可得: 500积分</span>
+              </div>
+              <div class="task-content">
+                <div class="monster-avatar">
+                  <div></div>
+                </div>
+                <div class="task-bonus">
+                  <span class="progress-key">产出 1800</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-info progress-bar-striped active" style="width: 85%;">
+                      <div class="progress-value">85%</div>
+                    </div>
+                  </div>
+                  
+                  <span class="progress-key">良率 93%</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" style="width: 75%;">
+                      <div class="progress-value">75%</div>
+                    </div>
+                  </div>
+                  
+                  <span class="progress-key">DPPM 5000</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width: 60%;">
+                      <div class="progress-value">60%</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="collapse-btn">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 64" fill="#EB2C17">
+                  <path d="M0 24l23.984 23.984 23.984-23.984h-47.969z"></path>
+                </svg>
+              </div>
+              <div class="operation">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 64" fill="#EB2C17">
+                  <path d="M22.393 49.143c0 0.286-0.143 0.607-0.357 0.821l-1.786 1.786c-0.214 0.214-0.536 0.357-0.821 0.357s-0.607-0.143-0.821-0.357l-16.643-16.643c-0.214-0.214-0.357-0.536-0.357-0.821s0.143-0.607 0.357-0.821l16.643-16.643c0.214-0.214 0.536-0.357 0.821-0.357s0.607 0.143 0.821 0.357l1.786 1.786c0.214 0.214 0.357 0.536 0.357 0.821s-0.143 0.607-0.357 0.821l-14.036 14.036 14.036 14.036c0.214 0.214 0.357 0.536 0.357 0.821zM36.107 49.143c0 0.286-0.143 0.607-0.357 0.821l-1.786 1.786c-0.214 0.214-0.536 0.357-0.821 0.357s-0.607-0.143-0.821-0.357l-16.643-16.643c-0.214-0.214-0.357-0.536-0.357-0.821s0.143-0.607 0.357-0.821l16.643-16.643c0.214-0.214 0.536-0.357 0.821-0.357s0.607 0.143 0.821 0.357l1.786 1.786c0.214 0.214 0.357 0.536 0.357 0.821s-0.143 0.607-0.357 0.821l-14.036 14.036 14.036 14.036c0.214 0.214 0.357 0.536 0.357 0.821z"></path>
+                </svg>
+                <button class="primary">挑战</button>
+                <button class="primary">拒绝</button>                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="task.js"></script>
+  </body>
+</html>

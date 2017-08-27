@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url(../images/black-bg.jpg); }
+  body .container {
+    display: flex;
+    flex-direction: column;
+    width: 80rem; }
+    body .container .header-top {
+      width: 100%;
+      height: 3.75rem;
+      background-image: url(../images/header-top.jpg);
+      background-size: 100% 3.75rem; }
+    body .container .header-content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      height: 10rem;
+      background-image: url(../images/header.png);
+      background-size: 100% 100%; }
+      body .container .header-content .header-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 27.5rem;
+        height: 100%;
+        color: #999;
+        font-weight: bold;
+        font-size: 2rem; }
+        body .container .header-content .header-left span {
+          margin-left: 1.5rem; }
+    body .container .body-container {
+      display: flex; }
+      body .container .body-container .body-left {
+        display: flex;
+        height: 38rem;
+        width: 25.25rem; }
+        body .container .body-container .body-left .left-border {
+          background-image: url(../images/left-border.jpg);
+          width: 2.6em;
+          height: 100%;
+          background-size: 100% 100%; }
+        body .container .body-container .body-left .center {
+          display: flex;
+          flex-direction: column;
+          width: 22rem; }
+          body .container .body-container .body-left .center .large-avatar {
+            width: 100%;
+            height: 34rem;
+            background-image: url(../images/character.png);
+            background-size: cover; }
+          body .container .body-container .body-left .center .player-info {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 7rem; }
+            body .container .body-container .body-left .center .player-info .section-top {
+              width: 100%;
+              height: 2rem;
+              background-size: cover;
+              background-image: url(../images/section-border-top.jpg); }
+            body .container .body-container .body-left .center .player-info .item-list {
+              display: flex;
+              align-items: center;
+              width: 100%;
+              background-image: url(../images/section-bg.jpg);
+              background-size: 100% 4.9rem; }
+              body .container .body-container .body-left .center .player-info .item-list .player-info-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                flex: 1;
+                height: 100%; }
+                body .container .body-container .body-left .center .player-info .item-list .player-info-item .key {
+                  color: #999;
+                  font-size: 1rem; }
+                body .container .body-container .body-left .center .player-info .item-list .player-info-item .value {
+                  color: #ccc;
+                  font-size: 0.875rem; }
+              body .container .body-container .body-left .center .player-info .item-list .item-1, body .container .body-container .body-left .center .player-info .item-list .item-3 {
+                flex: 1.5; }
+        body .container .body-container .body-left .right-border {
+          width: 0.375rem;
+          background-image: url(../images/border.png);
+          background-size: contain; }
